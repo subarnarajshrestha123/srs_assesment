@@ -1,0 +1,36 @@
+.Pagination {
+	width: 100%;
+	display: flex;
+}
+
+.Pagination-buttons {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
+}
+
+.Pagination-buttons button {
+  width: 50%;
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+	overflow: hidden;
+}
+
+.Pagination-buttons button i {
+  transform: scale(1.5);
+}
+
+.Pagination-buttons button:disabled {
+  opacity: .5
+}
+
+.Pagination-buttons-next {
+  background-color: rgba(112, 120, 193, 0.75);
+}
+
+.Pagination-buttons-prev {
+  background-color: rgba(112, 120, 193, 0.5);
+}
